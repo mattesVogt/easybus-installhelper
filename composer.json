@@ -1,0 +1,42 @@
+{
+  "name": "fournet/easybus-bundle",
+  "type": "contao-bundle",
+  "description": "Contao 4 bundle easyBus ReiseWeb install helper",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Janosch Oltmanns"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "contao/core-bundle": ">=4.3",
+    "codefog/contao-haste": "4.20.3",
+    "terminal42/contao-tablelookupwizard": "^3.2",
+    "terminal42/dcawizard": "^2.4",
+    "codefog/contao-widget_tree_picker": "^2.3",
+    "menatwork/contao-multicolumnwizard": "^3.3",
+    "terminal42/notification_center": "^1.4"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fournet\\EasybusBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Fournet\\EasybusBundle\\ContaoManager\\Plugin"
+  }
+}
