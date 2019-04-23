@@ -1,11 +1,11 @@
 {
   "name": "fournet/easybus-bundle",
   "type": "contao-bundle",
-  "description": "Contao 4 bundle easyBus ReiseWeb install helper",
+  "description": "Contao 4 Bundle",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Janosch Oltmanns"
+      "name": "4Net"
     }
   ],
   "require": {
