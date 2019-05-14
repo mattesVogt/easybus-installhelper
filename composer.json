@@ -26,5 +26,8 @@
     "psr-4": {
       "Fournet\\EasybusBundle\\": "src/"
     }
+  },
+  "extra": {
+    "contao-manager-plugin": "Fournet\\EasybusBundle\\ContaoManager\\Plugin"
   }
 }
