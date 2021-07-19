@@ -25,7 +25,10 @@
   "autoload": {
     "psr-4": {
       "Fournet\\EasybusBundle\\": "src/"
-    }
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ]
   },
   "extra": {
     "contao-manager-plugin": "Fournet\\EasybusBundle\\ContaoManager\\Plugin"
